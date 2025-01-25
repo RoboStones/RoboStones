@@ -1148,6 +1148,25 @@ ul {
 .playwrite-in-custom {
   font-family: "Playwrite IN", serif;
   font-optical-sizing: auto;
-  font-weight: 300; 
+  font-weight: 300;
   font-style: normal;
+}
+
+/*Videos*/
+
+.video-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.video-list a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+}
+
+.video-list a:hover {
+  text-decoration: underline;
 }
