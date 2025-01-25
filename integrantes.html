@@ -19,7 +19,9 @@
     <link rel="icon" href="img/Bot/favicon.ico" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -158,6 +160,9 @@
                                     <p class="redesS__description">Funcion: Programadora</p>
                                 </div>
                             </div>
+                        </div>
+                        <div id="backButton" class="hidden" onclick="hideBackButton()">
+                            ✖
                         </div>
                     </section>
                     <section class="redesS">
@@ -369,7 +374,7 @@
                 <div class="header-title">
                     <h1 data-aos="fade-up" data-aos-duration="3000">Saúl Sánchez Cabeza - 2706</h1>
                 </div>
-                <div style="color: aliceblue;">
+                <div style="color: aliceblue;" class="playwrite-in-custom">
                     <h1 data-aos="fade-up" data-aos-duration="3000">Queremos aprovechar este momento para recordar y
                         saludar a cada uno de los que han formado parte de este equipo fenomenal. Juntos hicieron mucho
                         más que dar vida a los robots: forjaron amistades, crearon momentos inolvidables y construyeron
@@ -445,7 +450,7 @@
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
         <script src="js/app.js"></script>
-
+        <script src="js/script.js"></script>
         <script>
             AOS.init({
                 duration: 1200,
