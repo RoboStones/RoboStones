@@ -728,11 +728,11 @@ section.redesS {
   z-index: 10;
 }
 
-@media screen and (max-width: 1000px) {
+/*@media screen and (max-width: 1000px) {
   .close-btn {
     display: contents;
   }
-}
+}*/
 /* Commands to change the shadows in dark mode
 @media (prefers-color-scheme: dark) {
   .redesS:hover {
