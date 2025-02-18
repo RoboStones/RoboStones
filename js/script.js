@@ -15,13 +15,13 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             closeButton.addEventListener('click', (event) => {
-                event.stopPropagation(); 
-                content.style.transform = 'rotateX(-90deg)'; 
+                event.stopPropagation();
+                content.style.transform = 'rotateX(-90deg)';
             });
 
             if (!isMobile) {
                 window.addEventListener('load', () => {
-                    content.style.transform = 'rotateX(-90deg)'; 
+                    content.style.transform = 'rotateX(-90deg)';
                 });
             }
         }
